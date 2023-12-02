@@ -1,7 +1,7 @@
 {
     "builds": [{
         "src": "JRS/wsgi.py",
-        "use": "@vercel/vercel-python-wsgi",
+        "use": "@ardnt/vercel-python-wsgi",
         "config": { "maxLambdaSize": "15mb","runtime": "python3" }
     }],
     "routes": [
